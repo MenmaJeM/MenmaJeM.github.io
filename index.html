@@ -1,46 +1,39 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Menma JeM — Blogs</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<main class="container layout">
 
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<header>
-  <nav>
-    <div>
-      <strong>Menma JeM</strong>
+  <!-- SIDEBAR ESQUERDA -->
+  <aside class="sidebar">
+    <div class="card">
+      <h3>Sobre este espaço</h3>
+      <p>
+        Este é um espaço dedicado à escrita.
+        Aqui publico reflexões em forma de blog
+        e histórias autorais divididas em capítulos.
+      </p>
+      <p>
+        Se você gosta de fantasia, introspecção
+        e narrativas pessoais, seja bem-vindo.
+      </p>
     </div>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="blogs.html">Blogs</a>
-      <a href="historias.html">Histórias</a>
-      <a href="sobre.html">Sobre</a>
-      <button class="toggle-theme" id="theme-toggle">🌙</button>
+
+    <a class="folder" href="blogs.html">📂 Blogs</a>
+    <a class="folder" href="historias.html">📂 Histórias Autorais</a>
+  </aside>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <section>
+
+    <div class="card">
+      <h2><a href="posts/blog-1.html">Primeiro Blog</a></h2>
+      <p class="post-meta">Blog • 2026</p>
+      <p>Introdução do texto, chamando o leitor para continuar lendo…</p>
     </div>
-  </nav>
-</header>
 
-<main class="container">
+    <div class="card">
+      <h2><a href="posts/historia-1-cap1.html">História — Capítulo 1</a></h2>
+      <p class="post-meta">História • Capítulo 1</p>
+      <p>O começo da jornada, onde tudo se inicia…</p>
+    </div>
 
-  <div class="card">
-    <h2><a href="posts/blog-1.html">Primeiro Blog</a></h2>
-    <p class="post-meta">Blog • 2026</p>
-    <p>Introdução do texto, chamando o leitor para continuar lendo…</p>
-  </div>
-
-  <div class="card">
-    <h2><a href="posts/historia-1-cap1.html">História — Capítulo 1</a></h2>
-    <p class="post-meta">História • Capítulo 1</p>
-    <p>O começo da jornada, onde tudo se inicia…</p>
-  </div>
+  </section>
 
 </main>
-
-<script src="js/theme.js"></script>
-</body>
-</html>
