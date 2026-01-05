@@ -1,0 +1,77 @@
+:root {
+  --bg: #f9fafb;
+  --text: #1f2933;
+  --card: #ffffff;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --text: #e5e7eb;
+  --card: #020617;
+  --accent: #38bdf8;
+  --border: #1e293b;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 20px;
+}
+
+nav {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.card {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  border: 1px solid var(--border);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.toggle-theme {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+}
