@@ -16,7 +16,7 @@ header_pages:
   - sobre.md
 
 minima:
-  skin: classic
+  skin: dark
 
 plugins:
   - jekyll-feed
